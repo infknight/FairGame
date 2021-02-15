@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.hands{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 10% 7% 15% 7%;
+}
+
+
+body{
+    background-color: #FCF8EC;
+}
+
+
+
+
+img{
+    width: 40%;
+}
+
+h1{
+    color: #456268;
+    
+}
