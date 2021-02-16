@@ -1,7 +1,16 @@
+body{
+    text-align: center; 
+    background-color: #fcf8ec;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
 .container{
     text-align: center;
-    width: 70%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -13,18 +22,28 @@
 }
 
 
-body{
-    background-color: #FCF8EC;
-}
-
-
-
-
 img{
     width: 40%;
 }
 
 h1{
-    color: #456268;
-    
+    padding-top: 3%;
+    color: #79a3b1;
+    font-size: 450%;
+    font-family: 'Texturina', serif;
+}
+
+.Playbtn{
+    color: red;
+}
+
+footer{
+    margin: 10%;
+}
+
+.player{
+    font-family: 'Zilla Slab Bold 700', serif;
+    font-weight: bolder;
+    font-size: 150%;
+    color: #aed8eb;
 }
