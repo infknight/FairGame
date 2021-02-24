@@ -48,10 +48,4 @@ function rpsgame(){
 
 }
 
-
-function refreshPage(){
-    window.location.reload();
-} 
-
-
-rpsgame(); 
+document.addEventListener("click", rpsgame); 
