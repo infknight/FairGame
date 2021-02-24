@@ -48,4 +48,4 @@ function rpsgame(){
 
 }
 
-document.addEventListener("click", rpsgame); 
+document.querySelector(".Playbtn").addEventListener("click", rpsgame); 
