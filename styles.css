@@ -26,6 +26,14 @@ body{
 
 .prob{
     padding-top: 15%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 200%;
+    color: #79a3b1;
+}
+
+.calcprob{
+    font-family: 'Mukta', sans-serif;
+    font-size: 250%;
 }
 
 
@@ -48,7 +56,7 @@ footer{
 .player{
     font-family: 'Zilla Slab Bold 700', serif;
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 250%;
     color: #aed8eb;
 }
 

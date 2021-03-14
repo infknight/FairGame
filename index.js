@@ -38,27 +38,21 @@ function rpsgame(){
 
     if(rand1 === 1 && rand2 == 2){
         win2 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 2 WON"; 
     }
     if(rand1 == 1 && rand2 == 3){
         win1 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 1 WON"; 
     }
     if(rand1 == 2 && rand2 == 1){
         win1 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 1 WON"; 
     }
     if(rand1 == 2 && rand2 == 3){
         win2 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 2 WON"; 
     }
     if(rand1 == 3 && rand2 == 1){
         win2 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 2 WON"; 
     }
     if(rand1 == 3 && rand2 == 2){
         win1 = true; 
-        // document.querySelector("h1").innerHTML = "PLAYER 1 WON"; 
     }
 
     if(win1 == true){
