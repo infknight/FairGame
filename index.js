@@ -64,8 +64,41 @@ function rpsgame(){
         count_two++;
     }
     
-    console.log("First", count_one); 
-    console.log("Second", count_two); 
+
+
+
+    var total = count_one + count_two; 
+    var one_percent = count_one / total; 
+    var two_percent = count_two / total; 
+    one_percent = Number.parseFloat(one_percent * 100).toPrecision(4); 
+    two_percent = Number.parseFloat(two_percent * 100).toPrecision(4); 
+    console.log("First", count_one, "  ", one_percent); 
+    console.log("Second", count_two, "  ", two_percent); 
+    var str_one = one_percent + "%"; 
+    var str_two = two_percent + "%"; 
+
+
+    // dont want to change it to NaN; 
+    if(total === 0){
+
+    } else{
+        document.querySelectorAll(".calcprob")[0].innerHTML = str_one;
+        document.querySelectorAll(".calcprob")[1].innerHTML = str_two;
+    }
+
+
+    if(str_one > str_two){
+        document.querySelectorAll(".calcprob")[0].style.color="red";
+        document.querySelectorAll(".calcprob")[1].style.color="black";
+    } else if(str_one < str_two){
+        document.querySelectorAll(".calcprob")[1].style.color="red";
+        document.querySelectorAll(".calcprob")[0].style.color="black";
+    } else if(str_one === str_two){
+        document.querySelectorAll(".calcprob")[1].style.color="black";
+        document.querySelectorAll(".calcprob")[0].style.color="black";
+    }
+
+
 
 }
 
