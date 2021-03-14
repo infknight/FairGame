@@ -12,11 +12,20 @@ body{
 }
 
 
+.row{
+    height: 18rem;
+}
+
+
 .hands{
     text-align: center;
     display: inline-block;
     width: 30%;
     margin: 10% 7% 15% 7%;
+}
+
+.prob{
+    padding-top: 15%;
 }
 
 
@@ -50,3 +59,7 @@ footer{
 .game2{
     transform: rotate(180deg);
 }
+
+/* .Playbtn{
+    margin: 5% 0;
+} */

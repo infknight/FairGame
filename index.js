@@ -69,11 +69,14 @@ function rpsgame(){
         document.querySelector("h1").innerHTML = "PLAYER 2 WON"; 
         count_two++;
     }
-
     
-
-
+    console.log("First", count_one); 
+    console.log("Second", count_two); 
 
 }
+
+function refreshPage(){
+    window.location.reload();
+} 
 
 document.querySelector(".Playbtn").addEventListener("click", rpsgame); 
