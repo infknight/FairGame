@@ -48,10 +48,10 @@ h1{
     font-family: 'Texturina', serif;
 }
 
-
+/* 
 footer{
     margin: 10%;
-}
+} */
 
 .player{
     font-family: 'Zilla Slab Bold 700', serif;
@@ -74,7 +74,18 @@ footer{
 
 .footer{
     /* margin-top: 10%; */
-    margin: 10% 50%;
+    display: inline-block;
+    margin: 10% 45%;
     padding: 0 0 5% 0;
     text-align: center;
+    position: relative;
+}
+/* 
+.fot{
+    display: inline-block;
+} */
+
+.copy{
+    text-align: center;
+    font-family: 'Texturina', serif;
 }
